@@ -1,0 +1,250 @@
+.App { box-sizing: content-box  ;
+  /* font-family: Eina-Regular, sans-serif;} */
+  overflow: hidden;
+  animation: opc 4s ease-out;
+}
+
+@keyframes opc {from {opacity: 0;}
+ to {opacity: 1;}}
+body{overflow-x: hidden;}
+.navrow{margin-top: 10px; flex-wrap: nowrap!important;}
+
+.header{ 
+width: 90%; margin: auto;
+ /* border-bottom: 2px solid black; */
+height: 10vh;
+
+}
+.logo{ padding-top: 15px; width: 100px  ;}
+
+
+.active{border-bottom: 1px #007bff solid; font-weight: 700;}
+
+.nav-cont a{color :black;
+text-decoration: none; font-size: 20px; margin: 0 5px;}
+.nav-cont a:hover{ transition: .2s all; border-bottom: 5px #007bff  solid;}
+
+
+.nav-link { justify-content:flex-end;
+padding:10px}
+.toggle{ width:40px ; height: 40px; ;background: black; border-radius: 2px; position: relative; z-index: 101; border: none; display: none;  
+    margin-top: 20px;
+}
+.toggle .toggle-line { height: 3px;width:80%; background: white;  border-radius: 5px; position: absolute;
+left: 3.5px; }
+.toggle .line1 { background: white; top: 30%; }
+.toggle .line2  { background: white; top: 50%;}
+.toggle .line3  { background: white; top: 70%;}
+
+.toggle  .spi {             
+    transform: rotate(-40deg);
+    animation: cross .40s ease-out;}
+
+    .toggle  .spi2 {             
+        transform: rotate(40deg);
+
+top:50%;        animation: cross2 .40s ease-out;}
+
+.toggle  .spi3 {             
+   display: none;}
+
+
+  .openn {
+    position: absolute;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0%;
+    background: black;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.25);
+    animation: toggleOn 1s ease-out;
+  }
+  
+  @keyframes toggleOn {
+    0% {
+        height: 100vh;
+        left:-100vw;
+        top: 0px;
+    }
+ 
+    100% {
+      height: 100vh;
+      left:0;
+      top:0px;
+    }
+  }
+
+  @keyframes toggleOff {
+    0% {
+       
+        left:0;
+        top: 0px;
+    }
+ 
+    100% {
+      height: 100vh;
+      left:-100vw;
+      top:0px;
+    }
+  }
+
+  @keyframes cross {
+    0% {
+        /* width: 100%; */
+
+        transform: rotate(0deg);
+
+    }
+ 
+    100% {
+
+        transform: rotate(-40deg);
+
+    }
+  }
+  @keyframes cross2 {
+    0% {
+        /* width: 100%; */
+
+        transform: rotate(0deg);
+        top:30%;
+
+    }
+ 
+    100% {
+        top:50%; 
+
+        transform: rotate(40deg);
+
+    }
+  }
+
+  .smoth{    position: relative;
+   left:-100vw;
+  }
+
+.smoth1{ position: relative;
+left: 0px;
+animation: smoth 1s ease-out ;
+/* animation-delay: 3s; */
+
+
+}
+.smoth2{ position: relative;
+  left: 0px;
+  animation: smoth 1.1s ease-out ;
+  
+  
+  }
+  .smoth3{ position: relative;
+    left: 0px;
+    animation: smoth 1.2s ease-out ;
+    
+    
+    }
+    .smoth4{ position: relative;
+      left: 0px;
+      animation: smoth 1.3s ease-out ;
+      
+      
+      }
+      .smoth5{ position: relative;
+        left: 0px;
+        animation: smoth 1.4s ease-out ;
+        
+        
+        }
+        .smoth6{ position: relative;
+          left: 0px;
+          animation: smoth 1.5s ease-out ;
+          
+          
+          }
+
+  @keyframes smoth {
+    0% {
+       
+        left:-100vw;
+    }
+   
+ 
+    100% {
+      left:0px;
+
+    }
+  }
+
+
+   .closee {position: absolute;
+    z-index: 100;
+
+    
+    width: 100vw;
+    height: 100vh;
+    left:-100vw;
+    top: 0px;
+    background:black;
+
+    animation: toggleOff 1s ease-out;
+
+}
+ 
+.sidenav { padding-top: 30px; color: white;}
+.sidenav h5{padding-top: 0px;}
+
+.sidenav .nav-link{ color: white;  font-size: 40px;
+text-decoration: none;}
+
+
+
+
+
+.footer{ width: 90%;
+background-color: #f4f4f4; margin: auto;}
+
+.footer h5{    font-weight: 100; font-size: 1.975em;
+}
+.footer p{    font-size: 1.575em;
+}
+
+.legal {    padding-top: 100px; font-size: 0.75em!important
+}
+
+.footer a {text-decoration: none;}
+
+/* .footer a:hover { color:#007bff!important; transition: .2s all; border-bottom: 5px #007bff  solid ;} */
+
+.footer-icons a{color: black;}
+.footer a:hover{color: #007bff; transition: .2s all;
+text-decoration: none;}
+
+
+
+.talk{position: absolute;
+bottom: 20px; left: 10px;}
+
+@media  (max-width: 1040px) {
+    .nav-cont{display: none!important;}
+    .toggle{display: block; float: right;}
+}
+
+@media  (max-width: 500px) {
+  .nav-link{font-size: 25px!important;}
+  .talk h5 {font-size: 15px !important;}
+
+  .talk p {font-size: 10px !important;}
+
+}
+
+
+@media  (max-width: 992px) {
+
+ .footer{width: 100%;
+margin-bottom: 0px!important;}
+}
+
+@media  (max-width: 774px) {
+
+  .footer-icons{text-align: left!important;}
+}

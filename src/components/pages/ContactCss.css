@@ -1,0 +1,105 @@
+.contact-page{width: 90%; margin: auto; 
+    animation: opc 2s ease-out;
+
+}
+   @keyframes opc {from {opacity: 0;}
+   to {opacity: 1;}}
+
+   .contact-page h1 {    font-size: 7.5em;
+    font-weight: 900;}
+    
+    .contact-page h3{    font-weight: 900; font-size: 1.875em;
+    }
+    
+    
+    .contact-page p{    font-size: 1.5em;
+    }
+
+
+    .contact-page a{  text-decoration: none;
+        border-bottom: 2px #007bff solid;
+        transition: .5s all;
+        color: black;
+      }
+      
+        .contact-page a:hover{ 
+          border-bottom: 5px #007bff solid;
+        }
+
+
+        .form-label{font-weight: 900;font-size: 1.5em;}
+
+        .contact-form input{ border: black 1px solid;     font-size: 2.4em;
+        }
+        .form-check-input{display: none;
+    }
+        .form-check-label{display: inline-block;
+            position: relative;
+            text-align: center;
+            font-size: 1.4em;
+            line-height: 1.4;
+            letter-spacing: -0.01em;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            background: rgb(244, 244, 244);
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(244, 244, 244);
+            transition: all 0.2s ease-in-out 0s;}
+
+           
+
+            #Branding:checked + label, #WebDesign:checked + label, #Campaign:checked + label ,#SomethingElse:checked + label{
+                background: black; color: white;
+            }
+
+            .form-check-label:hover, .form-check-label:focus {
+                cursor: pointer;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(136, 136, 145);
+                border-image: initial;
+            }
+
+.formbtn{display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: Prophet-Bold, sans-serif;
+    font-size: 1.6em;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    background: rgb(52, 91, 251);
+    transition: all 0.2s ease-in-out 0s;}
+
+    .Jump-aboard{  overflow: auto;  color: white;  background: rgb(30, 30, 32);
+        }
+
+        .Jump-aboard h2{   font-weight: 900;  font-size: 4.5em;
+        }
+
+        .Jump-aboard p{ width: 60%; float: right;}
+        .Jump-aboard a{color: white;}
+
+
+
+        @media (max-width: 992px)
+    {
+    
+        .contact-page  h1{font-size: 4.875em;}
+    .Jump-aboard p{ width: 100%; }
+    .Jump-aboard h2{   font-size: 3.5em;}
+    .contact-page{width: 100%;  }
+
+    
+    }
+    
+    @media (max-width: 592px)
+    {
+
+    
+        .contact-page  h1{font-size: 4em;}
+    
+    }

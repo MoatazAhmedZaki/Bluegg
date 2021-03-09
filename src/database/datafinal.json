@@ -1,0 +1,64 @@
+[
+  {
+    "description": "Brief: A digital experience to help save the world",
+    "category": "Insights",
+    "imgs": "https://cms.bluegg.co.uk/assets/images/writing/usw-brief-2.gif"
+  },
+  {
+    "description": "Mazuma, winning awards for disruption!",
+    "category": "Ramblings",
+    "imgs": "https://cms.bluegg.co.uk/assets/images/writing/zombie-load.gif"
+  },
+  {
+    "description": "Building a 300 page website with Gatsby & Craft",
+    "category": "Web dev",
+    "imgs": "https://cms.bluegg.co.uk/assets/images/writing/blog-gatsby.gif"
+  },
+  {
+    "description": "Front End Developer Required",
+    "category": "Web dev",
+    "imgs": "https://cms.bluegg.co.uk/assets/images/writing/blog-gatsby.gif"
+  },
+  {
+    "description": "The benefits of mood-boarding",
+    "category": "Design",
+    "imgs": "https://cms.bluegg.co.uk/assets/images/writing/Moodboarding_Cover_2.gif"
+  },
+  {
+    "description": "Join us — Designer Wanted",
+    "category": "Design",
+    "imgs": "https://cms.bluegg.co.uk/assets/images/writing/usw-brief-2.gif"
+  },
+  {
+    "description": "Why do my print colours look different to what's on screen?",
+    "category": "Design",
+    "imgs": "https://cms.bluegg.co.uk/assets/images/writing/blog-colour.gif"
+  },
+
+  {
+    "description": "Using the Adapter Pattern in components",
+    "category": "Web dev",
+    "imgs": "https://cms.bluegg.co.uk/assets/images/writing/usw-brief-2.gif"
+  },
+  {
+    "description": "Accessibility Statements",
+    "category": "Web dev",
+    "imgs": "https://cms.bluegg.co.uk/assets/images/writing/Moodboarding_Cover_2.gif"
+  },
+  {
+    "description": "Creating a dark mode with styled components",
+    "category": "Web dev",
+    "imgs": "https://cms.bluegg.co.uk/assets/images/writing/blog-gatsby.gif"
+  },
+  {
+    "description": "ZombieLoad Security Vulnerability affecting all Intel CPUs since 2011",
+    "category": "Web dev",
+    "imgs": "https://cms.bluegg.co.uk/assets/images/writing/zombie-load.gif"
+  },
+  {
+    "description": "New website for Llanerch... Chin Chin!",
+    "category": "Design",
+    "imgs": "https://cms.bluegg.co.uk/assets/images/writing/blog-colour.gif"
+  }
+  
+]

@@ -1,0 +1,45 @@
+.our-work-page {width: 90%; margin: auto; 
+    animation: opc 4s ease-out;
+
+}
+   @keyframes opc {from {opacity: 0;}
+   to {opacity: 1;}}
+
+   .our-work-page  h1 {    font-size: 7.5em;
+    font-weight: 900;}
+    
+    .our-work-page  h3{    font-weight: 900; font-size: 1.875em;
+    }
+    
+    
+    .our-work-page  p{    font-size: 1.5em;
+    }
+
+
+    .our-work-page  a{  text-decoration: none;
+        border-bottom: 2px #007bff solid;
+        transition: .5s all;
+        color: black;
+      }
+      
+        .our-work-page  a:hover{ 
+          border-bottom: 5px #007bff solid;
+        }
+
+        @media (max-width: 992px)
+        {
+        
+            .our-work-page  h1{font-size: 4.875em;}
+        
+        .our-work-page{width: 100%;  }
+    
+        
+        }
+        
+        @media (max-width: 592px)
+        {
+    
+        
+            .our-work-page  h1{font-size: 4em;}
+        
+        }

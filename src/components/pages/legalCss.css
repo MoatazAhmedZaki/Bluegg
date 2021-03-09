@@ -1,0 +1,41 @@
+.legal-page{width: 90%; margin: auto; 
+    animation: opc 4s ease-out;
+
+}
+   @keyframes opc {from {opacity: 0;}
+   to {opacity: 1;}}
+
+
+.legal-page h1 {    font-size: 7.5em;
+font-weight: 900;}
+
+.legal-page h3{    font-weight: 900; font-size: 1.875em;
+}
+
+
+.legal-page p{    font-size: 1.5em;
+}
+
+.legal-page a{  text-decoration: none;
+    border-bottom: 2px #007bff solid;
+    transition: .5s all;
+    color: black;
+  }
+  
+    .legal-page a:hover{ 
+      border-bottom: 5px #007bff solid;
+    }
+
+    @media (max-width: 992px)
+{
+
+    .legal-page  h1{font-size: 4.875em;}
+
+}
+
+@media (max-width: 592px)
+{
+
+    .legal-page  h1{font-size: 3em;}
+
+}

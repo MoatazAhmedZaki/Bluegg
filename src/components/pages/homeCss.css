@@ -1,0 +1,559 @@
+.homepage h1{ font-weight: 900; font-size: 100px; text-transform: uppercase; color: black;}
+ /* .home-header{height: 90vh;} */
+ .tit{height: 60vh;}
+
+
+ .homepage{    animation: opc 4s ease-out;
+ }
+ @keyframes opc {from {opacity: 0;}
+ to {opacity: 1;}}
+ .home-header p{font-size: 1.5em; padding: 0 0 100px 0;}
+ 
+.homepage span::before ,.homepage span::after { font-weight: 900;}
+.tit2{height: 30vh; }
+.glitch {
+    position: relative;
+    /* animation: glitch 20s ease-out; */
+  }
+  /* .glitch::before, */
+  .glitch::after {
+    /* content: " HHHHHHHHH";
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 3; 
+    color:blue;
+    left: 20px;
+    top: 10px;
+    text-shadow: -15px -30px white; */
+    /* animation: glitch-blue 20s ease-out; */
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 3;
+    color: 007bff;
+    left: -18px;
+    top: 10px;
+    text-shadow: 15px -20px white;
+    /* animation: glitch-blue 5s ease-out; */
+
+  }
+
+  .glitch::before {
+
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2; 
+    background-color: 007bff;
+
+    color: black;
+    left:15px;
+    top: 7px;
+    /* text-shadow: 15px 10px blue; */
+
+    animation: glitch-black 5s infinite;
+
+   
+
+
+
+
+
+
+  }
+
+  /* .glitch::before { */
+    /* ... anything needed to make it identical */
+  
+    /* variation */
+    /* left: 2px;
+    text-shadow: -1px 0 red;
+    color: white; */
+    /* important: opaque background masks the original */
+    /* background: red;
+    z-index: 1;
+    clip: rect(33px, 420px, 46px, 0); */
+
+  /* } */
+  /* @keyframes glitch-blue {
+    0%{ content: "";}
+      10% {        content: " Start Ups";}
+      20% {        content: " Start Ups";}
+      30% {        content: " Start Ups";}
+      40% {        content: " Start Ups";}
+      49% {        content: " Start Ups";}
+      49.1% {        content: " Start Ups"; clip: rect(50px, 1000px, 86px, 0px);  } */
+      /* 49.2% {        content: " Start Ups";}
+      49.3% {        content: " Start Ups";}
+      49.4% {        content: " Start Ups"; } */
+      /* 49.5% { content: " Start Ups";} */
+      /* 49.9% { content: " Start Ups"; clip: rect(50px, 1000px, 86px, 0px);}
+      50% {content: " Movers";  }
+      60% { content: " Movers";  }
+      70% {content: " Movers";  }
+      80% {content: " Movers";  }
+      90% {content: " Movers";  }
+      99% {content: " Movers";  } */
+      /* 99.1% {        content: " Movers"; clip: rect(50px, 1000px, 86px, 0px); } */
+      /* 99.2% {        content: " Movers";}
+      99.3% {        content: " Movers";}
+      99.4% {        content: " Movers";}
+      99.5% { content: " Movers"; } */
+      /* 99.9% { content: " Movers"; clip: rect(50px, 1000px, 86px, 0px);} */
+
+  /* } */
+
+
+  @keyframes glitch-black {
+   
+    0%{ content: "S ";}
+    5%{ content: "S|";}
+
+  10%{ content: "St ";}
+    15%{ content: "St|";}
+    20%{ content: "Sta ";}
+    25%{ content: "Sta| ";}
+    30%{ content: "Star ";}
+    35%{ content: "Star|";}
+    40%{ content: "Start ";}
+    45%{ content: "Start|";}
+    50%{ content: "Start ";}
+    55%{ content: "Star| ";}
+    60%{ content: "Star";}
+
+  65%{ content: "Sta|";}
+    70%{ content: "Sta ";}
+    75%{ content: "St|";}
+    80%{ content: "St ";}
+    85%{ content: "S| ";}
+    90%{ content: "s";}
+    95%{ content: "|";}
+    100%{ content: "";}
+
+
+
+
+
+    
+      
+        /* clip: rect(50px, 1000px, 86px, 0px); */
+             
+    
+      }
+        
+  
+         
+       
+
+ /* @keyframes glitch-blue {
+
+   0%{ content: "";}
+    19% {        content: " Start Ups";
+
+      clip: rect(10px, 420px, 26px, 0);     
+    }
+      19.2% {        content: " Start Ups";
+
+        clip: rect(20px, 420px, 26px, 0);     
+      }
+      19.3% {        content: " Start Ups";
+
+        clip: rect(0px, 420px, 20px, 0);     
+      }
+      19.4% {        content: " Start Ups";
+
+        clip: rect(20px, 400px, 50px, 0);     
+      }
+      19.5% { content: " Start Ups";
+        clip: rect(30px, 400px, 40px, 0);     
+      }
+      19.6% { content: " Start Ups";
+        clip: rect(20px, 420px, 36px, 0);
+    }
+    20% {
+      content: " Movers";  }
+      40% {        content: " Movers";
+
+        clip: rect(10px, 420px, 26px, 0);     
+      }
+        39.2% {        content: " Movers";
+  
+          clip: rect(20px, 420px, 26px, 0);     
+        }
+        39.3% {        content: " Movers";
+  
+          clip: rect(0px, 420px, 20px, 0);     
+        }
+        39.4% {        content: " Movers";
+  
+          clip: rect(20px, 400px, 50px, 0);     
+        }
+        39.5% { content: " Movers";
+          clip: rect(30px, 400px, 40px, 0);     
+        }
+        39.6% { content: " Movers";
+          clip: rect(20px, 420px, 36px, 0);
+      }
+
+      40% {
+        content: " Big ideas";  }
+
+
+        59% {
+          content: " Big ideas";  }
+          59% {        content: " Big ideas";
+    
+            clip: rect(10px, 420px, 26px, 0);     
+          }
+          59.2% {        content: " Big ideas";
+      
+              clip: rect(20px, 420px, 26px, 0);     
+            }
+            59.3% {        content: " Big ideas";
+      
+              clip: rect(0px, 420px, 20px, 0);     
+            }
+            59.4% {        content: " Big ideas";
+      
+              clip: rect(20px, 400px, 50px, 0);     
+            }
+            59.5% { content: " Big ideas";
+              clip: rect(30px, 400px, 40px, 0);     
+            }
+            59.6% { content: " Big ideas";
+              clip: rect(20px, 420px, 36px, 0);
+          }
+    
+          60% {
+            content: " Scale Big";  }
+    
+    
+            79% {
+              content: " Scale Big";  }
+              79% {        content: " Scale Big";
+        
+                clip: rect(10px, 420px, 26px, 0);     
+              }
+              79.2% {        content: " Scale Big";
+          
+                  clip: rect(20px, 420px, 26px, 0);     
+                }
+                79.3% {        content: " Scale Big";
+          
+                  clip: rect(0px, 420px, 20px, 0);     
+                }
+                79.4% {        content: " Scale Big";
+          
+                  clip: rect(20px, 400px, 50px, 0);     
+                }
+                79.5% { content: " Scale Big";
+                  clip: rect(30px, 400px, 40px, 0);     
+                }
+                79.6% { content: " Scale Big";
+                  clip: rect(20px, 420px, 36px, 0);
+              }
+              80% {
+                content: " Finisher";  }
+        
+        
+                99% {
+                  content: " Finisher";  }
+                  99% {        content: " Finisher";
+            
+                    clip: rect(10px, 420px, 26px, 0);     
+                  }
+                  99.2% {        content: " Finisher";
+              
+                      clip: rect(20px, 420px, 26px, 0);     
+                    }
+                    99.3% {        content: " Finisher";
+              
+                      clip: rect(0px, 420px, 20px, 0);     
+                    }
+                    99.4% {        content: " Finisher";
+              
+                      clip: rect(20px, 400px, 50px, 0);     
+                    }
+                    99.5% { content: " Finisher";
+                      clip: rect(30px, 400px, 40px, 0);     
+                    }
+                    99.6% { content: " Finisher";
+                      clip: rect(20px, 420px, 36px, 0);
+                  }
+
+  } */
+  /* @keyframes glitch-black {
+   
+     0%{ content: "Start Ups";}
+     10%{ content: "Start Ups";}
+
+     19% {        content: " Start Ups";
+ 
+           clip: rect(0px, 420px, 20px, 0);  
+     
+     }
+       19.2% {        content: " Start Ups";
+ 
+        clip: rect(30px, 400px, 40px, 0);  
+       }
+       19.3% {        content: " Start Ups";
+ 
+        clip: rect(10px, 420px, 26px, 0);     
+       }
+       19.4% {        content: " Start Ups";
+ 
+        clip: rect(20px, 420px, 36px, 0);
+       }
+       19.5% { content: " Start Ups";
+         clip: rect(30px, 400px, 40px, 0);     
+       }
+       19.6% { content: " Start Ups";
+         clip: rect(20px, 420px, 36px, 0);
+     }
+     20% {
+       content: " Movers";  }
+       40% {        content: " Movers";
+ 
+             clip: rect(0px, 420px, 20px, 0);  
+     
+       }
+         39.2% {        content: " Movers";
+   
+          clip: rect(30px, 400px, 40px, 0);  
+         }
+         39.3% {        content: " Movers";
+   
+          clip: rect(10px, 420px, 26px, 0);     
+         }
+         39.4% {        content: " Movers";
+   
+          clip: rect(20px, 420px, 36px, 0);
+         }
+         39.5% { content: " Movers";
+           clip: rect(30px, 400px, 40px, 0);     
+         }
+         39.6% { content: " Movers";
+           clip: rect(20px, 420px, 36px, 0);
+       }
+ 
+       40% {
+         content: " Big ideas";  }
+ 
+ 
+         59% {
+           content: " Big ideas";  }
+           59% {        content: " Big ideas";
+     
+                 clip: rect(0px, 420px, 20px, 0);  
+     
+           }
+           59.2% {        content: " Big ideas";
+       
+              clip: rect(30px, 400px, 40px, 0);  
+             }
+             59.3% {        content: " Big ideas";
+       
+              clip: rect(10px, 420px, 26px, 0);     
+             }
+             59.4% {        content: " Big ideas";
+       
+              clip: rect(20px, 420px, 36px, 0);
+             }
+             59.5% { content: " Big ideas";
+               clip: rect(30px, 400px, 40px, 0);     
+             }
+             59.6% { content: " Big ideas";
+               clip: rect(20px, 420px, 36px, 0);
+           }
+     
+           60% {
+             content: " Scale Big";  }
+     
+     
+             79% {
+               content: " Scale Big";  }
+               79% {        content: " Scale Big";
+         
+                     clip: rect(0px, 420px, 20px, 0);  
+     
+               }
+               79.2% {        content: " Scale Big";
+           
+                  clip: rect(30px, 400px, 40px, 0);  
+                 }
+                 79.3% {        content: " Scale Big";
+           
+                  clip: rect(10px, 420px, 26px, 0);     
+                 }
+                 79.4% {        content: " Scale Big";
+           
+                  clip: rect(20px, 420px, 36px, 0);
+                 }
+                 79.5% { content: " Scale Big";
+                   clip: rect(30px, 400px, 40px, 0);     
+                 }
+                 79.6% { content: " Scale Big";
+                   clip: rect(20px, 420px, 36px, 0);
+               }
+               80% {
+                 content: " Finisher";  }
+         
+         
+                 99% {
+                   content: " Finisher";  }
+                   99% {        content: " Finisher";
+             
+                         clip: rect(0px, 420px, 20px, 0);  
+     
+                   }
+                   99.2% {        content: " Finisher";
+               
+                      clip: rect(30px, 400px, 40px, 0);  
+                     }
+                     99.3% {        content: " Finisher";
+               
+                      clip: rect(10px, 420px, 26px, 0);     
+                     }
+                     99.4% {        content: " Finisher";
+               
+                      clip: rect(20px, 420px, 36px, 0);
+                     }
+                     99.5% { content: " Finisher";
+                       clip: rect(30px, 400px, 40px, 0);     
+                     }
+                     99.6% { content: " Finisher";
+                       clip: rect(20px, 420px, 36px, 0);
+                   }
+    
+  } */
+ 
+.tit {  align-items: center;
+}
+
+
+
+.our-work-section{width: 90%; margin: auto; height: 100vh; overflow: hidden;}
+
+.mazuma{height: 70%; overflow: hidden;}
+.mazuma img{  transition: 2s all ;height: 100% ;width: 100%;}
+
+.mazuma img:hover{transform: scale(1.1); }
+
+.our-work-section p{font-size: 20px; padding: 15px 0;}
+.our-work-section a{ text-decoration: none;
+  border-bottom: 1px #007bff solid;
+  padding: 5px 0;
+  transition: .5s all;
+  color: black;
+}
+
+  .our-work-section a:hover{ 
+    border-bottom: 5px #007bff solid;
+  }
+
+
+  .random-work-section{width: 90%; margin: auto;}
+
+  .random-work-section .us{font-size: 30px;}
+
+
+.work{overflow: hidden;}
+.hena img{  transition: 2s all ;height: 100% ;width: 100%;}
+
+.hena img:hover{transform: scale(1.1); }
+
+.hena p{font-size: 20px; padding: 15px 0;}
+.hena a{ text-decoration: none;
+  border-bottom: 1px #007bff solid;
+  transition: .5s all;
+  color: black;
+}
+
+  .hena a:hover{ 
+    border-bottom: 5px #007bff solid;
+  }
+
+  .more-projects a{font-weight: 900;
+  font-size: 30px; 
+  text-decoration: none;
+  transition: .5s all;
+
+}
+
+
+.more-projects a:hover{
+  text-decoration: none;
+  border-bottom: 5px #007bff solid;
+  color: #007bff;;
+
+ 
+}
+
+.next-level-seciton{ background-color: #1e1e20; color: white; width: 90%; margin: auto;}
+
+.next-level-title{    font-size: 4.5em;
+  font-weight: 900;
+}
+
+.next-level-seciton .holder{width: 85%;
+float: right; }
+
+
+.holder h2{ font-weight: 900;   font-size: 1.875em;
+}
+.holder p{    font-size: 1.175em;
+}
+
+.holder img{    width: 100%;
+}
+
+
+/* .flex-item{} */
+
+.second{display: flex;
+  flex-direction: row-reverse;
+
+}
+.res{display: none;}
+
+
+@media (max-width: 992px)
+{ .homepage h1{font-size: 3em;}
+  .next-level-title{ font-size: 1.875em;}
+  .next-level-seciton{  width: 100%; }
+
+  .next-level-seciton .holder{width: 100%;
+    float: none }
+
+  .second{display: flex;
+    flex-direction: row;
+
+  
+  }
+
+.keda{    padding: 20px!important;
+}
+
+
+  .second img{float: left;}
+
+
+
+}
+
+
+
+
+
+@media (max-width: 500px)
+{.res{display: inline;}
+
+.glitch::before {left: 0px;}
+
+}

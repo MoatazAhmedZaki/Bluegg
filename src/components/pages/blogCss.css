@@ -1,0 +1,75 @@
+.blog-page {width: 90%; margin: auto; 
+    animation: opc 4s ease-out;
+
+}
+   @keyframes opc {from {opacity: 0;}
+   to {opacity: 1;}}
+
+   .blog-page  h1 {    font-size: 7.5em;
+    font-weight: 900;}
+    
+    .blog-page  h3{    font-weight: 900; font-size: 1.875em;
+    }
+    
+    
+    .blog-page  p{    font-size: 1.5em;
+    }
+
+
+    .blog-page  a{  text-decoration: none;
+        border-bottom: 2px #007bff solid;
+        transition: .5s all;
+        color: black;
+      }
+      
+        .blog-page  a:hover{ 
+          border-bottom: 5px #007bff solid;
+        }
+
+        @media (max-width: 992px)
+        {
+        
+            .blog-page  h1{font-size: 4.875em;}
+        
+        .blog-page{width: 100%;  }
+    
+        
+        }
+        
+        @media (max-width: 592px)
+        {
+    
+        
+            .blog-page  h1{font-size: 4em;}
+        
+        }
+
+        .select{ font-weight:900; background-color:  black; color: white; padding: 10px; border-radius: 4px;
+        border:  2px #007bff solid ;}
+
+
+
+        .test {width: 200px;
+        height: 100px; background-color: blue;
+      position: fixed;z-index: 40;
+      animation: col2 2s ;
+
+    
+    }
+
+      .blue{background-color: red;
+        width: 100px;
+        height: 100px; 
+      position: fixed;z-index: 40;
+      animation: col1 2s ;
+    }
+
+
+
+      @keyframes col1 {from {        width: 200px;background-color: blue;
+}
+   to {width: 100px; background-color: red;}}
+
+   @keyframes col2 {from {width: 100px;background-color: red;
+   }
+      to {width: 200px;background-color: blue;}}
